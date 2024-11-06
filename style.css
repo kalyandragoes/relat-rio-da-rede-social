@@ -1,0 +1,44 @@
+:root{
+    --rosa: rgb(228, 23, 102);
+    --roxo: rgb(102, 27, 112);
+    --preto: rgb(12, 11, 11);
+    --branco: rgb(235, 224, 224);
+    
+}
+body{
+    background-color: var(--rosa);
+    color: var(var(--preto));
+    font-family:fantasy ;
+    height: 100vh;
+    margin: 0;
+}
+header{
+    background-color:var(--roxo);
+    text-align: center;
+    padding: 1px;
+}
+h1{
+    font-size: 2rem;
+    color: var(--preto);
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+}
+
+nav a{
+    text-decoration: none;
+    color: var(--preto);
+    margin: 0 2rem 1rem 0rem;
+    font-size: 1.2rem;
+
+}
+
+nav a:hover{
+    text-decoration: underline;
+    transform: scale(0.90);
+    transition: transform(0.1s)
+}
